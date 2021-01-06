@@ -1,0 +1,35 @@
+.legendBox {
+    width: 15px;
+    height: 15px;
+    border: none;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.legendWrapper {
+    box-sizing: border-box;
+}
+
+.legendWrapper:first-child {
+    padding-top: 17px;
+    display: inline-block;
+    margin-left: 45px;
+    height: 50px;
+}
+
+.red {
+    background-color: #ff9aa2;
+}
+
+.green {
+    background-color: #c0eccc;
+}
+
+.blue {
+    background-color: #96b9d0;
+}
+
+.yellow {
+    background-color: #f9f0c1;
+}

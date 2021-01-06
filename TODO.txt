@@ -1,0 +1,10 @@
+- Sort on columns (completed, category, dueDate, title) (done)
+  Need to be reversed and showed with arrow
+  Default: sort on increasing dueDate 
+        - Change row background on category (done)
+        - Change text color on completed and due date passed (done)
+- Test some components when done with Jest (npm test)
+- Maybe animation when marking complete / removing todos (done with CSS animations)
+- Clear all passed button (done)
+- Write some test with Jest (done)
+- Fix the infinite render loop with sorting! (done with useRef)

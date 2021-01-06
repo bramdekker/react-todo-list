@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    border: 2px dashed var(--secondaryColor);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+form .inputEl {
+    margin: 4px 0 10px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+form label {
+    color: var(--secondaryColor);
+    font-weight: bold;
+}
+
+form textarea {
+    resize: none;
+    background-color: var(--fourthColor);
+    outline: none;
+}
+
+form input {
+    background-color: var(--fourthColor);
+    outline: none;
+}
+
+form input[type="radio"] + label {
+    font-size: 14px;
+    font-weight: normal;   
+    color: black;
+    padding: 0 10px 0 5px;
+}
+
+form input[type="radio"]:checked { 
+    background-color: var(--fourthColor);
+}
+
+form #submitBtn {
+    padding: 15px;
+    background-color: var(--thirdColor);
+    color: var(--fourthColor);
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 4px;
+}
+
+form #submitBtn:hover:enabled {
+    background-color: #32be77;
+}
+
+form #submitBtn:disabled {
+    background-color: #5e7a69;
+    color: #a3dba6;
+    border: 1px solid #a3dba6
+}

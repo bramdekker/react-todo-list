@@ -1,0 +1,118 @@
+/* 
+    School: Red
+    Work: Blue
+    Housekeeping: Yellow
+    Other: Green
+*/
+
+table {
+    table-layout: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table thead {
+    white-space: nowrap;
+}
+
+table thead .hoverPointer:hover {
+    cursor: pointer;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid var(--secondaryColor);
+    text-align: left;
+}
+
+th:first-child, th:nth-child(2), td:first-child, td:nth-child(2) {
+    border: none;
+    width: 20px;
+}
+
+table .noBorders button {
+    float: none;
+    padding: 0;
+    padding-right: 5px;
+    margin: 0;
+    border: none;
+    background-color: var(--primaryColor);
+    outline: none;
+}
+
+table .noBorders .animation {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: enlarge 0.5s;
+}
+
+@keyframes enlarge {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(3);
+        opacity: 0.25;
+    }
+}
+
+.noBorders {
+    background-color: var(--primaryColor);
+}
+
+table .noBorders .markCompleted {
+    color: #608860;
+}
+
+table .noBorders .markCompleted:hover {
+    color: green;
+    background-color: var(--primaryColor);
+}
+
+table .noBorders .removeTodo {
+    color: #af6060;
+}
+
+table .noBorders .removeTodo:hover {
+    color: red;
+    background-color: var(--primaryColor);
+}
+
+table thead .tableHead {
+    color: var(--secondaryColor);
+    background-color: white;
+}
+
+.tableHead th:first-child, .tableHead th:nth-child(2) {
+    background-color: var(--primaryColor);
+}
+
+.completed {
+    color: darkgreen;
+}
+
+.notCompleted {
+    color: black;
+}
+
+.tooLate {
+    color: darkred;
+}
+
+.school {
+    background-color: #ff9aa2;
+}
+
+.work {
+    background-color: #96b9d0;
+}
+
+.housekeeping {
+    background-color: #f9f0c1;
+}
+
+.other {
+    background-color: #c0eccc;
+}
